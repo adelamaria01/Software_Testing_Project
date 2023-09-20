@@ -1,0 +1,181 @@
+{
+  "id": "6841f4a8-2226-4f9e-9332-e3566f63c9f0",
+  "version": "2.0",
+  "name": "SchimbareLimba",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "95a9bfef-8217-4b88-b566-68faa54c23b3",
+    "name": "SchimbareLimba",
+    "commands": [{
+      "id": "a31fc1a5-e792-4759-9bd7-70a34c9cd0f7",
+      "comment": "",
+      "command": "open",
+      "target": "/GRADEIT/EnVersion/LandingPage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "042fe32f-5548-4f59-9235-d9724970590d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "262fcadd-6172-4e6b-802d-59d69c847324",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navBar",
+      "targets": [
+        ["css=.navBar", "css:finder"],
+        ["xpath=//ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47d3eb54-8a2d-439f-93cf-8204a9e6b074",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Faculty",
+      "targets": [
+        ["linkText=Faculty", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Faculty')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'FacultateCalcul.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Faculty')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa711586-a854-4b79-a5cb-19d00dc86880",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=High School",
+      "targets": [
+        ["linkText=High School", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'High School')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LiceuCalcul.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'High School')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abee53a6-2927-4ebd-b03f-881f7ab1d377",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navBar",
+      "targets": [
+        ["css=.navBar", "css:finder"],
+        ["xpath=//ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88346475-1fd0-4426-88aa-ba4fa0480591",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LandingPage.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17022ca1-73e9-43f7-a0ed-935ea3dedefc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=RO",
+      "targets": [
+        ["linkText=RO", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'RO')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../RoVersion/LandingPage.html')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'RO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d4a1e5c-4ea6-4799-bed5-e1451a1e9cd6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Facultate",
+      "targets": [
+        ["linkText=Facultate", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Facultate')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'FacultateCalcul.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Facultate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4286558a-c8b5-435d-81bb-5e79d875c5f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Liceu",
+      "targets": [
+        ["linkText=Liceu", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Liceu')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LiceuCalcul.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Liceu')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12d272f9-ede2-457f-b706-c35c75ebcbf7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Acasa",
+      "targets": [
+        ["linkText=Acasa", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Acasa')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'LandingPage.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Acasa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b27b612-4eaf-4aff-a343-cabef5f58e36",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=EN",
+      "targets": [
+        ["linkText=EN", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'EN')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../EnVersion/LandingPage.html')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3f72948-4387-4652-9c3f-05e4f7512f9a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Faculty",
+      "targets": [
+        ["linkText=Faculty", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Faculty')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'FacultateCalcul.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Faculty')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "56ca8060-090d-4d71-8ea9-82a5b4a564bd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["95a9bfef-8217-4b88-b566-68faa54c23b3"]
+  }],
+  "urls": ["http://localhost/"],
+  "plugins": []
+}

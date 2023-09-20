@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleFacultateCalcul.css">
+    <script src="Functii_FacultateCalcul.js"></script>
+    <title>GradeIt-Facultate</title>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <div id="logo">
+            <img src="Media/logo3.webp">
+            <h4 id="titlu">GradeIt</h4>
+        </div>
+
+        <ul class="navBar">
+            <li><a href="LandingPage.html">Acasa</a></li>
+            <li><a href="FacultateCalcul.html">Facultate</a></li>
+            <li><a href="LiceuCalcul.html">Liceu</a></li>
+            <li>|</li>
+            <li><a href="../EnVersion/FacultateCalcul.html">EN</a></li>
+
+        </ul>
+    </nav>
+
+    <!--TABEL-->
+    <div class="container">
+        <div class="chenar">
+            <div id="dateInitiale">
+                <table>
+                    <tr>
+                        <th>
+                        <td >Materie</td>
+                        <td >Nota</td>
+                        <td >Credite</td>
+                        </th>
+                    </tr>
+                    <tbody id="parentElement">
+                        <tr class="materieNota">
+                            <td>1</td>
+                            <td>
+                                <input class="inputMaterie" type="text" placeholder="Materie...">
+                            </td>
+                            <td>
+                                <input class="note inputNote" type="number" placeholder="Nota..." min="0" max="10">
+                            </td>
+                            <td>
+                                <input class="credite inputNote" type="number" placeholder="Număr Credite..." min="1"
+                                    max="10">
+                            </td>
+                        </tr>
+                        <tr class="materieNota">
+                            <td>2</td>
+                            <td>
+                                <input class="inputMaterie" type="text" placeholder="Materie...">
+                            </td>
+                            <td>
+                                <input class="note inputNote" type="number" placeholder="Nota..." min="0" max="10">
+                            </td>
+                            <td>
+                                <input class="credite inputNote" type="number" placeholder="Număr Credite..." min="1"
+                                    max="10">
+                            </td>
+                        </tr>
+                        <tr class="materieNota">
+                            <td>3</td>
+                            <td>
+                                <input class="inputMaterie" type="text" placeholder="Materie...">
+                            </td>
+                            <td>
+                                <input class="note inputNote" type="number" placeholder="Nota..." min="0" max="10">
+                            </td>
+                            <td>
+                                <input class="credite inputNote" type="number" placeholder="Număr Credite..." min="1"
+                                    max="10">
+                            </td>
+                        </tr>
+                        <tr class="materieNota">
+                            <td>4</td>
+                            <td>
+                                <input class="inputMaterie" type="text" placeholder="Materie...">
+                            </td>
+                            <td>
+                                <input class="note inputNote" type="number" placeholder="Nota..." min="0" max="10">
+                            </td>
+                            <td>
+                                <input class="credite inputNote" type="number" placeholder="Număr Credite..." min="1"
+                                    max="10">
+                            </td>
+                        </tr>
+                        <tr class="materieNota">
+                            <td>5</td>
+                            <td>
+                                <input class="inputMaterie" type="text" placeholder="Materie...">
+                            </td>
+                            <td>
+                                <input class="note inputNote" type="number" placeholder="Nota..." min="0" max="10">
+                            </td>
+                            <td>
+                                <input class="credite inputNote" type="number" placeholder="Număr Credite..." min="1"
+                                    max="10">
+                            </td>
+                        </tr>
+                        <tr class="materieNota">
+                            <td>6</td>
+                            <td>
+                                <input class="inputMaterie" type="text" placeholder="Materie...">
+                            </td>
+                            <td>
+                                <input class="note inputNote" type="number" placeholder="Nota..." min="0" max="10">
+                            </td>
+                            <td>
+                                <input class="credite inputNote" type="number" placeholder="Număr Credite..." min="1"
+                                    max="10">
+                            </td>
+                        </tr>
+                        <tr class="materieNota">
+                            <td>7</td>
+                            <td>
+                                <input class="inputMaterie" type="text" placeholder="Materie...">
+                            </td>
+                            <td>
+                                <input class="note inputNote" type="number" placeholder="Nota..." min="0" max="10">
+                            </td>
+                            <td>
+                                <input class="credite inputNote" type="number" placeholder="Număr Credite..." min="1"
+                                    max="10">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div id="butoane">
+                    <button id="btn-AddNota" class="btn-add" id="butonAdd" onclick="addRow()"><span
+                            class="textBtn">Adauga
+                            Materie</span></button>
+                    <button onclick="calculMedie()">Calculeaza</button>
+                    <button id="btn-RemoveNota" class="btn-remove" onclick="removeRow()">Sterge Materie</button>
+                </div>
+            </div>
+
+            <div class="container-rezultat">
+                <h3>Media</h3>
+                <div class="rezultat-final">
+                    <div id="rezultat"></div>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

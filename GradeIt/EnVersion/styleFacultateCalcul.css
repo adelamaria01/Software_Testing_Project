@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    /*elementele vor fi una langa alta*/
+    align-items: center;
+    justify-content: center;
+}
+
+.chenar {
+
+    color: white;
+    padding: 50px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+}
+
+.container-rezultat h3 {
+    margin-top: 20px;
+    margin-left: 135px;
+}
+
+#rezultat {
+    margin-top: 10px;
+    margin-left: 145px;
+}
+
+#butoane button {
+    background-color: midnightblue;
+    color: white;
+    height: 30px;
+    width: 105px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
